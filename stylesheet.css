@@ -1,0 +1,193 @@
+
+h1, h2, h3, a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 42pt;
+}
+
+h2 {
+   font-size: 36pt;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+   font-size: 16pt;
+}
+
+form {
+  display: inline;
+}
+
+button {
+   height: 30px;
+   width: auto;
+   padding: 5px, 10px;
+   background-color: #9684A1;
+   border-radius: 5px;
+   font-size: 14px;
+   border: 0px;
+   font-family: 'Source Sans Pro', sans-serif;   
+}
+
+
+#page-wrapper {
+  width: 100vw;
+  min-height: 90vh;
+  background: #eee;
+}
+
+
+#top {
+  background-color: #aaa;
+  margin: 0 auto;
+  width: 100vw;  
+  height: 75px;  
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  }
+
+     
+
+#navlist li {
+  display: inline-block; 
+  margin: 0, 15px; 
+  
+}
+
+ul{
+   list-style: none; 
+   margin-right: 50px;
+   white-space: nowrap;
+}
+
+li a {
+  color: #eee;
+  margin-left: 12px;  
+  
+}
+
+#header-img {
+  margin-left: 50px;
+}
+
+#left-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+ 
+}
+
+#top-button {
+  margin-left: 10px;
+}
+
+#mastercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+#container-one {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#headline {
+  padding-top: 25px;
+  text-align: center;
+} 
+
+iframe {
+   height: 280px;
+   padding: 15px;
+}
+  
+
+#container-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#link-one-bg {
+   background-color: #9684A1;
+   height: 500px;
+   width: 100vw;
+   display: flex;
+   justify-content: flex-end;  
+   align-items: center;
+}
+
+#content-one {
+   width: 45vw;
+   padding-right: 50px;
+}
+
+#link-two-bg {
+   background-color: #BFEDC1;
+   height: 500px;
+   width: 100vw;
+   display: flex;
+   justify-content: flex-start;  
+   align-items: center;
+}
+
+#content-two {
+   width: 45vw;
+   padding-left: 50px;
+}
+
+
+#link-three-bg {
+   background-color: #B6C9BB;
+   height: 500px;
+   width: 100vw;
+   display: flex;
+   justify-content: flex-end;  
+   align-items: center;
+}
+
+#content-three {
+   width: 45vw;
+   padding-right: 50px;
+}
+
+
+#content-four {
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#email-submit {
+   display: flex;
+   width: 55vw;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
