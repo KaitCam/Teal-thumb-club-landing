@@ -6,6 +6,8 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap" rel="stylesheet">
+<meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 </head>
 
 <body>
@@ -20,16 +22,16 @@
   </div> 
 
   <div id="top-button">
-  <a href=#submit><button class="button" id="top-submit">Sign Up</button></a>
+   <a href=#submit><button class="button" id="top-submit">Sign Up</button></a>
   </div>
 
  </div>
 
   <div id="navbar">    
      <ul id="navlist">
-      <li><a class="nav-link" href=#firstlink>What it is</a></li>
-      <li><a class="nav-link" href=#secondlink>How it works</a></li>
-      <li><a class="nav-link" href=#thirdlink>Prices</a></li>
+      <li><a class="nav-link" href=#container-two>What it is </a></li>
+      <li><a class="nav-link" href=#container-three>How it works</a></li>
+      <li><a class="nav-link" href=#container-four>Prices</a></li>
      </ul>  
   </div>
 
@@ -38,12 +40,16 @@
 
 <div id="mastercontainer">
 
+
  <div id="container-one">
+ <div class="header-overlay"></div>
 
      <div class="fullscreen-video-wrap">
             <video src="plantsrain.mp4" autoplay="true" loop="true">
     </video>
     </div>
+
+   
 
     <div id="top-greeting">
       <h1> Unique, beautiful plants. Delivered right to your door.</h1>
@@ -55,8 +61,11 @@
  <div id="container-two">
 
   <div id="link-one-bg">
+  <div class="TTC1">
+    <img id="orchid-one" src="TTC1CampbellKaitlynn.png" alt="Graphic of orchid foliage in a pot" />
+  </div> 
     <div id="content-one">
-    <h3 id="firstlink" >What Teal Thumb Club is</h2>
+    <h3 id="what">What Teal Thumb Club is</h2>
     
 </br>
     <p>TTC is a custom, subscription-based plant service. Simply select your plant preferences and the conditions of the place you'd like to start your indoor garden, and we'll do the rest- no green thumb required.</p>
@@ -67,18 +76,28 @@
 
 <div id="container-three">  
   <div id="link-two-bg">
+
+    <div class="TTC2">
+     <img id="orchid-two" src="TTC2CampbellKaitlynn.png" alt="Graphic of an orchid in a pot with buds on its stem" />
+    </div> 
+
    <div id="content-two">
-    <h3 id="secondlink" >How it works</h2>
+    <h3 id="how" >How it works</h2>
 </br>
-    <p>Teal Thumb Club choses plants for you based on your preferences and gardening experience. Each month, you'll recieve a new addition for your garden. New plants, fetlizlizer, plant containers, you name it.</p>
+    <p>Teal Thumb Club choses plants for you based on your preferences and gardening experience. Each month, you'll recieve a new addition for your garden. Plants, fetlizlizer, containers, you name it!</p>
    </div>
+
   </div>
 </div>
  
 <div id="container-four"> 
   <div id="link-three-bg">
+    <div class="TTC3">
+     <img id="orchid-three" src="TTC3CampbellKaitlynn.png" alt="Graphic of an orchid in a pot in full bloom" />
+    </div>
+
     <div id="content-three">
-    <h3 id="thirdlink" >Okay, but how much does it cost?</h2>
+    <h3 id="price" >Okay, but how much does it cost?</h2>
 </br>
     <p>The best part? Subscriptions start at just $9.99 a month.</p>  
   </div>
@@ -91,16 +110,18 @@
 
 
     <div id="email-submit">
-        <div><form id="form" method="get" action=" https://www.freecodecamp.com/email-submit">
-        <label class="label" for="email" id="email-label"><h2>For 20% off, enter your email here</h2></label>
+        <div id="label"><form id="form" method="get" action=" https://www.freecodecamp.com/email-submit">
+        <label class="label" for="email" id="email-label"><h2>For 20% off your first three months, enter your email here</h2></label>
         </div>
+        
         <div>
         <input class-"input-field" id="email" name="email" type="email" placeholder="example@gmail.com">
         </div>
-</br>
+
         <div>   
        <button class="button" id="submit" type="submit">Sign Up</button>
      </div>
+  
         </form>
    </div>
 </div>
