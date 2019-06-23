@@ -1,6 +1,6 @@
-@media only screen and (max-width: 400px) {
+
 h1, h2, h3, a {
-  font-family: 'Source Sans Pro', helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -8,11 +8,11 @@ h1 {
 }
 
 h2 {
- font-size: 36pt;
+   font-size: 36pt;
 }
 
 h3 {
- font-size: 30pt;
+  font-size: 30pt;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 p, label {
-  font-family: 'Open Sans', helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -69,6 +69,7 @@ button {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  border-bottom: 1px solid #8E8C89;
   }
 
      
@@ -177,6 +178,7 @@ li a {
   overflow: hidden;
 }
 
+
 #link-one-bg {
    background-color: #fff;
    height: 500px;
@@ -266,7 +268,3 @@ li a {
    text-align: center;
 }
 
-}
-@media only screen and (min-width: 401px) {
-  
-}
