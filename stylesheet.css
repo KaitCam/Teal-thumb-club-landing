@@ -170,6 +170,33 @@ li a {
    color: #5A7B01;
 } 
   
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+    .subheadline {
+      text-align: center;
+     }
+}
+
+.orchid {
+   width: 30vw;
+   min-width: 300px;
+   height: auto;
+}
+
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+    .content:
+      width: 80vw;
+     }
+}
+
+
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+    .content {
+     width: 45vw;
+     }
+}
 
 #container-two {
   display: flex;
@@ -181,68 +208,110 @@ li a {
 
 #link-one-bg {
    background-color: #fff;
-   height: 500px;
    width: 100vw;
    display: flex;
    justify-content: space-around;  
    align-items: center;
 }
 
-#content-one {
-   width: 45vw;
-   padding-right: 50px;
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+   #link-one-bg {
+     flex-direction: column;
+     }
 }
 
-#orchid-one {
-   width: 30vw;
-   min-width: 20vw;
-   height: auto;
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+   #link-one-bg {
+     height: 500px;
+     }
 }
+
+
 
 #link-two-bg {
    background-color: #fff;
-   height: 500px;
    width: 100vw;
    display: flex;
    justify-content: space-around;  
    align-items: center;
 }
 
-#orchid-two {
-   width: 30vw;
-   min-width: 20vw;
-   height: auto; 
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+ #link-two-bg  {
+   flex-direction: column;
+     }
 }
 
-#ttc2 {
-   order: 2
+
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+ #link-two-bg {  
+   height: 500px;
+    }
 }
 
-#content-two {
-   width: 45vw;
-   padding-left: 50px;
+
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+   #ttc2 {
+     order: -1;
+   }
+}
+
+
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+  #ttc2 {
+   order: 2;
+  }
+}
+
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+   #content-two {
+     text-align: left;
+     order: 2;
+    }
+}
+
+
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+ #content-two {
    order: -1;
+   }
 }
 
 
 #link-three-bg {
    background-color: #fff;
-   height: 500px;
    width: 100vw;
    display: flex;
    justify-content: space-around;  
    align-items: center;
 }
 
-#orchid-three {
-   width: 30vw;
-   min-width: 20vw;
-   height: auto;   
+/*Mobile style*/
+@media only screen and (max-width: 400px) {
+    #link-three-bg {
+      flex-direction: column;
+     }
 }
+
+/*desktop style*/
+@media only screen and (min-width: 401px) {
+    #link-three-bg {
+     height: 500px;
+     }
+}
+
+
 
 #content-three {
    width: 45vw;
-   padding-right: 50px;
 }
 
 
