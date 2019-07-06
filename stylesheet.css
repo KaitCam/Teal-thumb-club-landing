@@ -311,12 +311,14 @@ ul{
 
 .orchid {
    width: 30vw;
+   max-width: 450px;
    min-width: 300px;
    height: auto;
 }
 
 .content {
    text-align: left;
+   height: 300px;
 }
 
 /*Mobile style*/
@@ -390,50 +392,75 @@ ul{
 }
 
 
+/* reference 
 
-
-/*Mobile style*/
-@media only screen and (min-width: 401px) {
-  #bottom {
+#bottom {
     height: 500px;
     width: 100vw;
     background-color: #C5D1C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 }
-
-
-#email-submit {
-   display: flex;
-   flex-wrap: wrap;
-}
+*/
 
 /*Mobile style*/
-@media only screen and (min-width: 401px) {
-   #email-submit {
-      width: 100vw;
-      height: 500px;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-    }
+@media only screen and (max-width: 400px) {
+  #bottom {
+    height: auto;
+    width: 100vw;
+    background-color: #C5D1C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 }
 
 /*desktop style*/
 @media only screen and (min-width: 401px) {
-    #email-submit {
-      width: 55vw;
-      justify-content: center;
-    }
+  #bottom {
+    height: 300px;
+    width: 100vw;
+    background-color: #C5D1C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 }
 
 /*Mobile style*/
-@media only screen and (min-width: 401px) {
-  #email-box {
-    align-self: center;
-  }
+@media only screen and (max-width: 400px) {
+   #email-submit {
+     padding: 15px 0px;
+     width: 90vw;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+    }
 }
 
-#label {
+
+.label {
+   display: block;
    text-align: center;
+   width: 70vw;
+}
+  
+.input {
+    display: block;
+    align-self: center;
+    display: block;
+    width: 150px;
 }
 
+#email-input {
+    text-align: center;
+    margin: 20px;
+}
+
+#bottom-button {
+    text-align: center;
+}
