@@ -1,4 +1,3 @@
-
 h1, h2, h3, a {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -21,6 +20,7 @@ h1 {
 
 h2 {
    font-size: 36pt;
+   color: #606F1F;
 }
 
 /*Mobile style*/
@@ -141,6 +141,10 @@ body {
  }
 }
 
+#header-img {
+   height: 50px;
+   width: auto;
+}
 
 /*desktop style*/
 @media only screen and (min-width: 421px) {
@@ -152,7 +156,7 @@ body {
 /*Mobile style*/
 @media only screen and (max-width: 420px) {
   #header-img {
-   margin-left: 7px;
+   margin-left: 5vw;
   }
 }
 
@@ -240,14 +244,16 @@ ul{
   margin-top: 100px; 
 }
 
-#top-greeting {
-   text-align: center;
-   color: #fff;
-   height: auto;
-   width: 60vw;
-}
+/*Mobile style*/
+@media only screen and (max-width: 420px) {
+   .fullscreen-video-wrap {
+     display: none;
+    }
+}  
 
-.fullscreen-video-wrap {
+/*desktop style*/
+@media only screen and (min-width: 421px) {
+ .fullscreen-video-wrap {
   position: absolute;
   top: 0;
   left: 0;
@@ -255,11 +261,32 @@ ul{
   height: 100vh;
   overflow: hidden;
   z-index: -99;
-}
+ }
 
-.fullscreen-video-wrap video {
+ .fullscreen-video-wrap video {
   min-height: 100%;
   min-width: 100%;
+ }
+}
+
+/*Mobile style*/
+@media only screen and (max-width: 420px) {
+  #mobile-top-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      z-index: -99;
+     }
+}
+
+/*desktop style*/
+@media only screen and (min-width: 421px) {
+   #mobile-top-bg {
+     display: none;
+   }
 }
 
 .header-overlay {
@@ -271,6 +298,23 @@ ul{
   z-index: -98;
   background: #92A501;
   opacity:0.45;
+}
+
+
+/*Mobile style*/
+@media only screen and (max-width: 420px) {
+   #logo-main {
+     height: auto;
+     width: 55vw;
+    }
+}
+
+/*desktop style*/
+@media only screen and (min-width: 421px) {
+   #logo-main {
+     height: 55vh;
+     width: auto;
+    }
 }
 
 /*desktop style*/
@@ -394,11 +438,10 @@ ul{
 
 
 /* reference 
-
 #bottom {
     height: 500px;
     width: 100vw;
-    background-color: #C5D1C0;
+    background-color: #8E8C89;
     display: flex;
     justify-content: center;
     align-items: center;
